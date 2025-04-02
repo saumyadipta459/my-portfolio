@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saumyadipta | Backend Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Space+Grotesk:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+</head>
+
+<body>
+    <div class="particles" id="particles-js"></div>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Saumyadipta</a>
+            <div class="nav-links">
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+                <a href="blog.html">Blogs</a>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h4 class="greeting">Hi there! 👋 I'm</h4>
+                <h1 class="name">Saumyadipta Saha</h1>
+                <h2 class="title">Backend Developer & API Specialist</h2>
+                <p class="bio">I build robust, scalable backend systems with clean APIs that power amazing digital
+                    experiences. I am an MCA AIML graduate with a strong interest in the AIML field and backend
+                    development.</p>
+
+                <div class="cta-buttons">
+                    <a href="Saumyadipta_Saha_MCA(AIML).pdf" download class="btn primary">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                    <a href="#contact" class="btn secondary">
+                        <i class="fas fa-paper-plane"></i> Contact Me
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/saumyadipta459" class="social-icon" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/saumyadipta-saha" class="social-icon" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:saumyadipta.saha@gmail.com" class="social-icon" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-snippet">
+                    <div class="code-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <pre><code class="language-python"># Backend Developer
+@app.route('/api/projects', methods=['GET'])
+def get_projects():
+    projects = db.projects.find()
+    return jsonify({
+        'success': True,
+        'projects': projects
+    })</code></pre>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80"
+                            alt="Movie Recommendation System">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">content-based filtering</span>
+                            <span class="tag">cosine similarity</span>
+                            <span class="tag">streamlit</span>
+
+                        </div>
+                        <h3 class="project-title">Movie Recommendation Engine</h3>
+                        <p class="project-description">
+                            Built a content-based and collaborative filtering recommendation system
+                            using TMDB dataset. Features include user preferences analysis and
+                            similarity scoring with Pandas and Scikit-learn.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://movie-recommender-system-content-based-7.onrender.com/"
+                                class="link-with-icon">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/saumyadipta459/Movie-recommender-system-content-based-"
+                                class="link-with-icon">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="Chat Fusion Analysis Dashboard">
+                    </div>
+                    <div class="project-content">
+                        
+
+                        <div class="project-tags">
+                            <span class="tag"><i class="fab fa-python"></i> Python</span>
+                            <span class="tag"><i class="fas fa-table"></i> Pandas</span>
+                            <span class="tag"><i class="fas fa-brain"></i> TextBlob/VADER</span>
+                            <span class="tag"><i class="fas fa-chart-line"></i> Streamlit</span>
+                        </div>
+
+                        <div class="project-header">
+                            <h3 class="project-title">Chat Fusion: WhatsApp Behavioral Insights</h3>
+
+                        </div>
+
+                        <div class="project-description">
+                            <p>Automated analysis system extracting sentiment, user activity patterns, and communication
+                                insights from WhatsApp conversations. Processes exported chat data into interactive
+                                visual dashboards.</p>
+
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check-circle"></i> Sentiment polarity scoring at message/user level
+                                </li>
+                                <li><i class="fas fa-check-circle"></i> Activity heatmaps by time/day</li>
+                                <li><i class="fas fa-check-circle"></i> Network analysis of user interactions</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-links">
+
+                            <a href="https://chatfusion.streamlit.app/" class="link-with-icon" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://drive.google.com/file/d/1hNVxxrWpxkw44NRptDvwrzgFxgq6C4As/view?usp=sharing" class="link-with-icon" target="_blank">
+                                <i class="fas fa-file-alt"></i> Case Study
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="E-Commerce Backend">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Flask</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">Razorpay</span>
+                        </div>
+                        <h3 class="project-title">E-Commerce Backend System</h3>
+                        <p class="project-description">Developed a scalable e-commerce backend with product management,
+                            user authentication, and Razorpay payment integration.</p>
+                        <div class="project-links">
+                            
+                            <a href="https://github.com/saumyadipta459/Ecommerce_Backend/tree/master/E-commerce-Backend-Development-codes"
+                                class="link-with-icon">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="cod.jpg" alt="OAuth Integration">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">OAuth 2.0</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Security</span>
+                        </div>
+                        <h3 class="project-title">Google OAuth Integration</h3>
+                        <p class="project-description">Implemented secure Google OAuth 2.0 authentication for seamless
+                            user login across multiple platforms with JWT token management.</p>
+                        <div class="project-links">
+                            
+                            <a href="https://github.com/saumyadipta459/Ecommerce_Backend/tree/master/E-commerce-Backend-Development-codes/task7"
+                                class="link-with-icon">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-subtitle">Where I've applied my skills</p>
+            </div>
+
+            <div class="experience-card">
+                <div class="experience-header">
+
+                    <div class="company-info">
+                        <h3>Koders</h3>
+                        <p class="company-description">IT Service Company</p>
+                    </div>
+                    <div class="experience-meta">
+                        <span class="experience-date">June 2024 - July 2024</span>
+                        <span class="experience-location">Dehradun, Uttarakhand</span>
+                    </div>
+                </div>
+
+                <div class="experience-details">
+                    <h4 class="experience-title">Backend Development Intern</h4>
+
+                    <ul class="achievement-list">
+                        <li>
+                            <i class="fas fa-bolt"></i>
+                            <span>Engineered critical backend features using Flask, achieving <strong>20% faster
+                                    response times</strong> through optimized queries</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-lock"></i>
+                            <span>Integrated Razorpay payment gateway serving <strong>5,000+ monthly users</strong>,
+                                reducing failures by 15%</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-database"></i>
+                            <span>Migrated from MySQL to MongoDB resulting in <strong>30% faster data retrieval</strong>
+                                and 2x capacity</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Implemented JWT authentication reducing security incidents by
+                                <strong>25%</strong></span>
+                        </li>
+                        <li>
+                            <i class="fab fa-google"></i>
+                            <span>Integrated Google OAuth increasing login success by <strong>10%</strong></span>
+                        </li>
+                        <li>
+                            <i class="fas fa-tachometer-alt"></i>
+                            <span>Optimized queries improving response times by <strong>40%</strong></span>
+                        </li>
+                        <li>
+                            <i class="fas fa-bug"></i>
+                            <span>Conducted API testing achieving <strong>99.8% uptime</strong> via Postman</span>
+                        </li>
+                    </ul>
+
+                    <div class="tech-used">
+                        <span class="tech-pill">Flask</span>
+                        <span class="tech-pill">MongoDB</span>
+                        <span class="tech-pill">Razorpay</span>
+                        <span class="tech-pill">JWT</span>
+                        <span class="tech-pill">Google OAuth</span>
+                        <span class="tech-pill">Postman</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Tools and technologies I work with</p>
+            </div>
+
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3 class="category-title">Backend Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <span class="skill-name">Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <span class="skill-name">Flask</span>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="devicon-django-plain" style="font-size: 1.8rem;"></i>
+                            </div>
+                            <span class="skill-name">Django</span>
+                        </div>
+
+                        <!-- Add Postman -->
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="devicon-postman-plain"
+                                    style="color: var(--primary-color); font-size: 1.8rem;"></i>
+                            </div>
+                            <span class="skill-name">Postman</span>
+                        </div>
+
+
+
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span class="skill-name">MongoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span class="skill-name">SQL</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">API & Integration</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <span class="skill-name">REST APIs</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <span class="skill-name">OAuth 2.0</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-exchange-alt"></i>
+                            </div>
+                            <span class="skill-name">Razorpay</span>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="devicon-swagger-plain"></i> <!-- Removed 'colored' -->
+                            </div>
+                            <span class="skill-name">Swagger/OpenAPI</span>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <span class="skill-name">Webhooks</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Have a project in mind or want to collaborate?</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <a href="mailto:saumyadipta.saha@gmail.com">saumyadipta.saha@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/saumyadipta-saha/"
+                                target="_blank">https://www.linkedin.com/in/saumyadipta-saha</a>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/saumyadipta459"
+                                target="_blank">https://github.com/saumyadipta459</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" action="https://formsubmit.co/saumyadipta.saha@gmail.com" method="POST">
+                    <!-- ✅ Explicit POST method -->
+
+                    <!-- Required FormSubmit Hidden Fields -->
+                    <input type="hidden" name="_subject" value="New Portfolio Message">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_next" value="#success"> <!-- Avoids Sucuri redirect block -->
+                    <input type="hidden" name="_captcha" value="false"> <!-- Disable if not using -->
+
+                    <!-- Visible Form Fields -->
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+
+                    <!-- User Assurance Message -->
+                    <p class="firewall-note">
+                        <i class="fas fa-info-circle"></i>
+                        <strong>Note:</strong> If you see an error after submitting, your message was still sent.
+                    </p>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">Saumyadipta</a>
+                    <p>Building the backbone of great digital experiences.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h4>Connect With Me</h4>
+                    <div class="social-icons">
+                        <a href="https://github.com/saumyadipta459" aria-label="GitHub"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/saumyadipta-saha" aria-label="LinkedIn"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="saumyadipta.saha@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Saumyadipta Saha. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

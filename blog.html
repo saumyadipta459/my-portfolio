@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode Blog Teaser</title>
+    <link rel="stylesheet" href="blogs.css">
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .blog-teaser {
+            background: linear-gradient(135deg, #1e1e1e, #2c2c2c);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            max-width: 400px;
+        }
+
+        h3 {
+            color: #bb86fc;
+        }
+
+        .tag {
+            display: inline-block;
+            background: rgba(187, 134, 252, 0.2);
+            color: #bb86fc;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin: 5px 3px;
+            font-size: 14px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            color: #ffffff;
+            background: #bb86fc;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #9a67ea;
+        }
+    </style>
+</head>
+<body>
+    <div class="blog-teaser">
+        <h3>Coming Soon: Tech Deep Dives</h3>
+        <p>I’m writing about:  
+          <span class="tag">Flask API Best Practices</span>  
+          <span class="tag">MongoDB Optimization</span>  
+        </p>  
+        <a href="mailto:saumyadipta.saha@gmail.com?subject=Blog%20Topic%20Suggestion" class="btn">Suggest a Topic</a>
+    </div>
+</body>
+</html>
